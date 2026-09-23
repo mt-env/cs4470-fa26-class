@@ -43,7 +43,7 @@ with the new expressions highlighted in the full grammar below:
       | <variable>
       | void
       | [ <expr> , ... ]
-      | variable> { <expr> , ... }
+      | <variable> { <expr> , ... }
 +     | ( <expr> )
       | <expr> . <variable>
       | <expr> [ <expr> , ... ]
