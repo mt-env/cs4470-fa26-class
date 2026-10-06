@@ -49,7 +49,7 @@ typechecker must be extended to handle:
 +     | <variable>
       | void
       | [ <expr> , ... ]
-      | variable> { <expr> , ... }
+      | <variable> { <expr> , ... }
       | ( <expr> )
       | <expr> . <variable>
       | <expr> [ <expr> , ... ]
